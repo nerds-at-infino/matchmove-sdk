@@ -1,0 +1,81 @@
+{
+    "name": "matchmove-sdk",
+    "version": "1.0.0",
+    "description": "A better and performant wrapper for the MatchMove API.",
+    "main": "lib/index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "files": [
+        "./lib",
+        "README.md"
+    ],
+    "scripts": {
+        "pretest": "xo",
+        "test": "tape ./__tests__/**/*.specs.js"
+    },
+    "xo": {
+        "esnext": true,
+        "semicolon": true,
+        "space": 4,
+        "rules": {
+            "space-in-parens": [
+                "error",
+                "always"
+            ],
+            "padded-blocks": [
+                "error",
+                "always"
+            ],
+            "array-bracket-spacing": [
+                "error",
+                "always"
+            ],
+            "object-curly-spacing": [
+                "error",
+                "always"
+            ],
+            "template-curly-spacing": [
+                "error",
+                "always"
+            ],
+            "computed-property-spacing": [
+                "error",
+                "always"
+            ],
+            "func-names": [
+                "error",
+                "always"
+            ],
+            "comma-dangle": [
+                "error",
+                "always-multiline"
+            ]
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nerds-at-infino/matchmove-sdk.git"
+    },
+    "keywords": [
+        "match",
+        "move",
+        "payment",
+        "integration",
+        "gateway",
+        "sdk",
+        "matchmove",
+        "aggregation"
+    ],
+    "author": "Infino <engineering@getinfino.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/infino/matchmove-sdk/issues"
+    },
+    "homepage": "https://github.com/infino/matchmove-sdk#readme",
+    "devDependencies": {
+        "tap-spec": "^5.0.0",
+        "tape": "^4.10.2",
+        "xo": "^0.24.0"
+    }
+}
